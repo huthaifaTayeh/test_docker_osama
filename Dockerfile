@@ -29,7 +29,7 @@ RUN gem update --system && gem install bundler
 
 WORKDIR /usr/src/app
 
-ENTRYPOINT ["./bin/docker-entrypoint.sh"]
+#ENTRYPOINT ["./bin/docker-entrypoint.sh"]
 
 EXPOSE 3000
 
